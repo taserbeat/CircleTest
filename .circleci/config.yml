@@ -5,5 +5,4 @@ jobs:
       - image: cimg/node:lts
     steps:
       - run: echo "hello world"
-      # Fail by executing a command that does not exist
-      - run: abcdef
+      - run: echo "status success!!"
