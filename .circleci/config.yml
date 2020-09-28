@@ -5,3 +5,4 @@ jobs:
       - image: cimg/node:lts
     steps:
       - run: echo "hello world"
+      - run: echo "status success!!"
